@@ -1,3 +1,7 @@
+# Specific to this project
+vector_store_id.txt
+*.pdf
+
 # Python
 __pycache__/
 *.py[cod]
