@@ -7,7 +7,7 @@ This repository contains examples of using the OpenAI API's new Responses featur
 1. Make sure you have Python installed
 2. Install the required packages:
    ```
-   pip install openai rich pydantic
+   pip install openai rich pydantic requests
    ```
 3. Create a `.env` file with your OpenAI API key:
    ```
