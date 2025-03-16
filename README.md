@@ -32,14 +32,22 @@ A command-line chat interface built with the Rich library:
 - Displays token usage statistics
 - Supports exiting the chat with the 'exit' command
 
-### 3. Image Analysis (`3_images.py`)
+### 3. Textual Chat (`2a_textual_chat.py`)
+
+A Textual app for chatting with OpenAI's GPT models:
+- Displays conversation history
+- Shows token usage statistics
+- Provides a simple text input for sending messages
+- Streams responses as they are generated
+
+### 4. Image Analysis (`3_images.py`)
 
 Shows how to use the API to analyze images:
 - Sends an image URL to the model
 - Requests a description of the image content
 - Uses the gpt-4o-mini model for efficient image analysis
 
-### 4. Structured Outputs (`4_structured_outputs.py`)
+### 5. Structured Outputs (`4_structured_outputs.py`)
 
 Demonstrates how to get structured data from the API:
 - Uses JSON Schema to define the expected output format
@@ -47,7 +55,7 @@ Demonstrates how to get structured data from the API:
 - Shows integration with Pydantic for type validation
 - Compares different methods for structured output
 
-### 5. Web Search Integration (`5_built_in_web_search.py`)
+### 6. Web Search Integration (`5_built_in_web_search.py`)
 
 Showcases the built-in web search capability:
 - Configures the web search tool with user location
